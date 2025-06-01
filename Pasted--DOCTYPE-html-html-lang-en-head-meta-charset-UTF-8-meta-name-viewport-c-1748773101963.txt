@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hasib Uddin Ahmed - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+</head>
+<body class="bg-gray-100 font-sans">
+    <!-- Navigation -->
+    <nav class="text-white p-4 sticky top-0" style="background-color: #337ea9;">
+        <div class="container mx-auto flex justify-end items-center">
+            <ul class="flex space-x-6 items-center">
+                <li><a href="#about" class="hover:underline flex items-center"><i class="fa-solid fa-house mr-1"></i> About</a></li>
+                <li><a href="#skills" class="hover:underline flex items-center"><i class="fa-solid fa-tools mr-1"></i> Skills</a></li>
+                <li><a href="#experience" class="hover:underline flex items-center"><i class="fa-solid fa-briefcase mr-1"></i> Experience</a></li>
+                <li><a href="#projects" class="hover:underline flex items-center"><i class="fa-solid fa-project-diagram mr-1"></i> Projects</a></li>
+                <li><a href="#contact" class="hover:underline flex items-center"><i class="fa-solid fa-envelope mr-1"></i> Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="about" class="text-white py-16" style="background-color: #337ea9;">
+        <div class="container mx-auto max-w-3xl text-center">
+            <h2 class="text-4xl font-bold mb-6 flex items-center justify-center">
+                <i class="fa-solid fa-star mr-2"></i> Hello, I'm Hasib Uddin Ahmed
+            </h2>
+            <p class="text-lg mb-4 font-semibold">Marketing Professional | Business Proposal Writer | Project Management Expert</p>
+            <img src="Image/portfolio-image.jpg" alt="Hasib Uddin Ahmed" class="mx-auto rounded-full w-48 h-48 object-cover mb-6" />
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20">
+        <div class="container mx-auto text-center my-12">
+            <h2 class="text-3xl font-bold mb-8 flex items-center justify-center"><i class="fa-solid fa-tools mr-2"></i> Skills</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+                <div class="bg-white p-6 rounded-lg shadow-md text-left">
+                    <h3 class="text-xl font-semibold flex items-center"><i class="fa-solid fa-bullhorn mr-2"></i> Marketing</h3>
+                    <p>Campaign management, social media content creation, market analysis</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-left">
+                    <h3 class="text-xl font-semibold flex items-center"><i class="fa-solid fa-tasks mr-2"></i> Project Management</h3>
+                    <p>Proposal development, client coordination, project delivery</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-left">
+                    <h3 class="text-xl font-semibold flex items-center"><i class="fa-solid fa-chart-bar mr-2"></i> Data Analysis</h3>
+                    <p>Data analysis with Python, visualizing data findings, MS Office. View my <a href="https://infogram.com/titanic-dashboard-1hmr6g8d73pwz2n" target="_blank" class="underline text-blue-600 hover:text-blue-800">Titanic Dashboard project</a>.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-left">
+                    <h3 class="text-xl font-semibold flex items-center"><i class="fa-solid fa-code mr-2"></i> Programming</h3>
+                    <p>Basic Python programming</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-left">
+                    <h3 class="text-xl font-semibold flex items-center"><i class="fa-solid fa-paint-brush mr-2"></i> Graphic Design</h3>
+                    <p>Design using Canva and Figma. View my <a href="https://haseevpranto007.wixsite.com/portfolio" target="_blank" class="underline text-blue-600 hover:text-blue-800">graphic design portfolio</a>.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="bg-gray-200 py-20">
+        <div class="container mx-auto my-12">
+            <h2 class="text-3xl font-bold text-center mb-8 flex items-center justify-center"><i class="fa-solid fa-briefcase mr-2"></i> Experience</h2>
+            <div class="max-w-3xl mx-auto space-y-6">
+                <div class="bg-white p-6 rounded-lg shadow-md text-left">
+                    <h3 class="text-xl font-semibold">Enroute International Limited</h3>
+                    <p class="text-gray-600">Assistant Manager | May 2022 - Present</p>
+                    <p>Develop, write, edit, and format tailored proposals for RFPs, ensuring clarity and alignment with client requirements. Conduct research to gather insights, maintain a repository of proposal templates and case studies, and create executive summaries and methodologies. Manage proposal timelines, coordinate with teams, participate in client meetings, and ensure seamless transition from proposal to project delivery.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-left">
+                    <h3 class="text-xl font-semibold">HypeScout Limited</h3>
+                    <p class="text-gray-600">Marketing Executive | February 2021 - November 2021</p>
+                    <p>Managed day-to-day communication, planning, and implementation across multiple teams. Oversaw social media content and strategies to enhance brand presence, supervised company social media handles, and coordinated advertising campaigns to meet client expectations and deadlines.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20">
+        <div class="container mx-auto my-12">
+            <h2 class="text-3xl font-bold text-center mb-8 flex items-center justify-center"><i class="fa-solid fa-project-diagram mr-2"></i> Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+                <div class="bg-white p-6 rounded-lg shadow-md text-left">
+                    <h3 class="text-xl font-semibold">ILO Skills and Economic Opportunities Project</h3>
+                    <p>Authored and submitted a comprehensive proposal for the ILO project 'Improving Skills and Economic Opportunities for Women and Youth in Cox's Bazar,' securing a contract valued at approximately USD 179,091.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-left">
+                    <h3 class="text-xl font-semibold">Dhaka City Neighborhood Upgrading Project</h3>
+                    <p>Authored and submitted a detailed proposal for the World Bank-funded Asset Management Project of Dhaka South City Corporation, securing a contract valued at approximately USD 221,815.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-left">
+                    <h3 class="text-xl font-semibold">Reviewing Gratuity Fund for Jhpiego</h3>
+                    <p>Prepared and submitted a comprehensive proposal to conduct an in-depth review of Jhpiego’s gratuity fund policies and practices to ensure compliance, sustainability, and alignment with organizational objectives.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-left">
+                    <h3 class="text-xl font-semibold">Organizational Restructuring for BDREN</h3>
+                    <p>Developed and submitted a detailed proposal for leading the organizational restructuring initiative aimed at optimizing operational efficiency, streamlining workflows, and supporting strategic growth objectives for BDREN.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="text-white py-20" style="background-color: #337ea9;">
+        <div class="container mx-auto text-center my-12">
+            <h2 class="text-3xl font-bold mb-8 flex items-center justify-center"><i class="fa-solid fa-envelope mr-2"></i> Get in Touch</h2>
+            <p class="mb-6 text-left max-w-2xl mx-auto">Interested in collaborating? Reach out to me!</p>
+            <div class="flex justify-center space-x-4">
+                <a href="mailto:hasib.ahmed071996@gmail.com" class="bg-white text-gray-800 px-4 py-2 rounded hover:bg-gray-200 flex items-center"><i class="fa-solid fa-envelope mr-2"></i> Email Me</a>
+                <a href="https://linkedin.com/in/yourprofile" class="bg-white text-gray-800 px-4 py-2 rounded hover:bg-gray-200 flex items-center"><i class="fa-brands fa-linkedin mr-2"></i> LinkedIn</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- JavaScript for Smooth Scrolling -->
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
